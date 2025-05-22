@@ -21,15 +21,11 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-
             //Logo und Text
-            Icon(Icons.login, size: 50),
-            SizedBox(height: 20),
-            Text(
-              "Welcome to Untangle",
-              style: TextStyle(fontSize: 16, color: Colors.grey[300]),
+            Padding(
+              padding: const EdgeInsets.all(100.0),
+              child: Image.asset("img/untangle_logo.png", height: 100),
             ),
-            SizedBox(height: 20),
 
             //Log in with Username and Password
             RegisterTypeinField(
