@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "688600385550",
+    "project_id": "untangle-ceb28",
+    "storage_bucket": "untangle-ceb28.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688600385550:android:be2d419c2590347285545f",
+        "android_client_info": {
+          "package_name": "com.example.untangle_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCidtI9fr_nwrfo8wtG-CfXEEhSIgnH1oU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

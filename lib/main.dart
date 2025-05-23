@@ -1,16 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:untangle_1/firebase_options.dart';
 import 'package:untangle_1/pages/home.dart';
 import 'package:untangle_1/pages/konflikt.dart';
 import 'package:untangle_1/pages/login.dart';
 import 'package:untangle_1/pages/register.dart';
 import 'package:untangle_1/pages/weeklyRef.dart';
 
-void main() {
+void main(){
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
+
 
   // This widget is the root of your application.
   @override
